@@ -10,6 +10,7 @@ body {
 	height: 500px;
 	position: relative;
 	z-index: 1;
+	/* border: solid 1px red; */
 }
 
 .ryu {
@@ -56,4 +57,23 @@ body {
 	z-index: 10;
 	top: 175px;
 	left: 633px;
+}
+
+.directions {
+	font-family: "Arial Black", Helvetica, sans-serif;
+	color: black;
+	font-size: 25px;
+	position: absolute;
+	right: 80px;
+	width: 650px;
+	top: 125px;
+	/* border: solid 1px blue; */
+}
+
+.directions p {
+	width: 50%;
+}
+
+.directions p + p {
+	margin-left: 250px;
 }
